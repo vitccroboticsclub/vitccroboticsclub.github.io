@@ -20,9 +20,9 @@
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
-    <!-- Custom styles for this template -->
-    <!--<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>-->
-    <link rel="stylesheet" href="css/qcountstyle.css">
+    <!-- Custom styles for this template--
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>-->
+    <link rel="stylesheet" href="css/mani.css">
     
     <link href="css/agency.min.css" rel="stylesheet">
     <link href="css/modified.css" rel="stylesheet">
@@ -193,47 +193,179 @@
       <form method="get" action="#.html">
         <button class = "btn" type="submit">Register</button>
     </form>-->
-    <div class="wrapper">
+<style>	
+	
+	
+/*.wrapper {
+  width: 100vw;
+  height: 150vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: auto 100%;
+}
+@font-face {
+  font-family: neon;
+  src: url("Neons_demo.otf");
+}
+.neon-wrapper {
+  box-shadow:
+  0 0 0.1vw  0.4vw #fff7f7,   
+  0 0 0.4vw  0.6vw #e97272, 
+  0 0   4vw  0.4vw #e50b0b,
+  inset 0 0 1.5vw  0.4vw #e50b0b,
+  inset 0 0 0.4vw  0.2vw #e97272,
+  inset 0 0 0.5vw  0.2vw #fff7f7;
+  border-radius: 1.5rem;
+}
+.neon-text {
+  font-family:neon;
+  font-size: 14rem;
+  color: #ffd8d8;
+  padding: 0 3.5rem 0 3.5rem;
+  text-shadow: 
+  .1vw 0vw .25vw #ffd8d8, .2vw 0vw .25vw #ffd8d8, .4vw 0vw .25vw #ffd8d8, 
+  .1vw 0vw   0vw #f25757, .2vw 0vw   0vw #f25757, .4vw 0vw   0vw #f25757,
+  .1vw 0vw  .1vw #f25757, .2vw 0vw  .1vw #f25757, .4vw 0vw  .1vw #f25757,
+  .1vw 0vw   2vw #f25757, .2vw 0vw   2vw #f25757, .4vw 0vw   2vw #f25757, 
+  .1vw 0vw   1vw #e50b0b, .2vw 0vw   1vw #e50b0b, .4vw 0vw   5vw #e50b0b, 
+  .1vw 0vw   5vw #e50b0b, .2vw 0vw  20vw #e50b0b, .4vw 0vw  10vw #e50b0b,
+  .1vw 0vw  10vw #e50b0b, .2vw 0vw  30vw #e50b0b, .4vw 0vw  10vw #e50b0b;
+}*/
+.bluelight {
+  text-shadow: 0 0 10px #FF0004,
+               0 0 20px #FFC400,
+               0 0 30px #2C2D2A,
+               0 0 40px #FFFFFF,
+               0 0 70px #FFFFFF,                               
+               0 0 80px #FFFFFF,
+               0 0 100px #FFFFFF,
+               0 0 150px #FFFFFF;
+}
+
+.clock {
+    overflow: hidden;
+}
+
+.col-md-12 {
+    overflow: hidden;
+    padding-bottom: 20px;
+	border-radius: 30px 30px 30px 30px;
+	background-color: #ffffff;
+    border: 0px;
+}
+
+.top-pane {
+  margin-bottom: 0px;
+  border-radius: 5px 5px 0px 0px;
+  background-color: #ffffff;
+  border: 0px;
+}
+
+.bottom-pane {
+  margin-top: 0px;
+  border-radius: 0px 0px 5px 5px;
+  background-color: #ffffff;
+  border: 0px;
+}
+
+@media (min-width: 768px) {
+  .num {
+    font-size: 100px;
+  }
+}
+
+@media (max-width: 767px) {
+  .num {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .num {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .text {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 767px) {
+  .text {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .text {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    padding-top: 75px;
+  }
+}
+
+h1 {
+  padding-top: 10px;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    margin-bottom: 75px;
+    font-size: 100px;
+  }
+}
+</style>
+	
+<div class="wrapper">	
+  <div class="neon-wrapper">
   <div class="container text-center">
-    <div class="col-md-12">
-      <h1 id="header" class="">New Year Countdown</h1>
+	 <!-- <div class="neon-text">NEON <br> TEXT</div>-->
+    <div class="col-md-12 neon-wrapper">
+      <h1 id="header" class="bluelight">New Year Countdown</h1>
     </div>
-    <div class="col-md-3 col-xs-6">
+    <div class="col-md-3 col-xs-6 neon-wrapper">
       <div class="clock">
-        <div class="well top-pane">
+        <div class="well top-pane neon-wrapper">
           <div id="days" class="num">00</div>
         </div>
-        <div class="well bottom-pane">
+        <div class="well bottom-pane neon-wrapper">
           <div id="days-text" class="text">Days</div>
         </div>
       </div>
     </div>
-    <div class="col-md-3 col-xs-6">
+    <div class="col-md-3 col-xs-6 text-center neon-wrapper">
       <div class="clock">
-        <div class="well top-pane">
+        <div class="well top-pane neon-wrapper">
           <div id="hours" class="num">00</div>
         </div>
-        <div class="well bottom-pane">
+        <div class="well bottom-pane neon-wrapper">
           <div id="hours-text" class="text">Hours</div>
         </div>
       </div>
     </div>
-    <div class="col-md-3 col-xs-6">
+    <div class="col-md-3 col-xs-6 text-center neon-wrapper">
       <div class="clock">
-        <div class="well top-pane">
+        <div class="well top-pane neon-wrapper">
           <div id="mins" class="num">00</div>
         </div>
-        <div class="well bottom-pane">
+        <div class="well bottom-pane neon-wrapper">
           <div id="mins-text" class="text">Minutes</div>
         </div>
       </div>
     </div>
-    <div class="col-md-3 col-xs-6">
+    <div class="col-md-3 col-xs-6 text-center neon-wrapper">
       <div class="clock">
-        <div class="well top-pane">
+        <div class="well top-pane neon-wrapper">
           <div id="secs" class="num">00</div>
         </div>
-        <div class="well bottom-pane">
+        <div class="well bottom-pane neon-wrapper">
           <div id="secs-text" class="text">Seconds</div>
         </div>
       </div>
@@ -241,12 +373,11 @@
     <div id="info" class="small"></div>
   </div>
 </div>
-  
-    </section> -->
-
+</div>
+    </section> 
     <!-- Portfolio Grid -->
-    <section class="bg-light" id="portfolio1">
-      <div class="container" >
+<section class="bg-light" id="portfolio1">
+  <div class="container" >
         <div style="" class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase" id="pastevents">Past events</h2>
@@ -477,11 +608,11 @@
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
-                    <h4>2018</h4>
+                    <h4>2020</h4>
                     <h4 class="subheading">Present</h4>
                   </div>
                   <div class="timeline-body">
-                    <p class="text-muted">This year too, we have 61 young minds under the wing of the knowledgeable guidance of our club faculty head, Prof. Arockia Selvakumar.</p>
+                    <p class="text-muted">This year too, we have 60 young minds under the wing of the knowledgeable guidance of our club faculty head, Prof. Arockia Selvakumar.</p>
                   </div>
                 </div>
               </li>
