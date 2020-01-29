@@ -48,7 +48,7 @@ $(document).ready(function() {
         $('#mins-text').text("Year");
         $('#secs').text(yearStr[3]);
         $('#secs-text').text("!!!");
-        $('#info').text("Countdown starts again tomorrow!");
+        $('#info').text("Robotics Club wishes you Happy New Year 2020 !!");
       }
     },1000);
   };
