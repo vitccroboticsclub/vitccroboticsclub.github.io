@@ -20,9 +20,9 @@
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
-    <!-- Custom styles for this template -->
-    <!--<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>-->
-    <link rel="stylesheet" href="css/qcountstyle.css">
+    <!-- Custom styles for this template--
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>-->
+    <link rel="stylesheet" href="css/mani.css">
     
     <link href="css/agency.min.css" rel="stylesheet">
     <link href="css/modified.css" rel="stylesheet">
@@ -193,47 +193,215 @@
       <form method="get" action="#.html">
         <button class = "btn" type="submit">Register</button>
     </form>-->
-    <div class="wrapper">
+<style>	
+	
+	
+/*.wrapper {
+  width: 100vw;
+  height: 150vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: auto 100%;
+}
+@font-face {
+  font-family: neon;
+  src: url("Neons_demo.otf");
+}
+.neon-wrapper {
+  box-shadow:
+  0 0 0.1vw  0.4vw #fff7f7,   
+  0 0 0.4vw  0.6vw #e97272, 
+  0 0   4vw  0.4vw #e50b0b,
+  inset 0 0 1.5vw  0.4vw #e50b0b,
+  inset 0 0 0.4vw  0.2vw #e97272,
+  inset 0 0 0.5vw  0.2vw #fff7f7;
+  background:url(img/poster1.png);
+  border-radius: 1.5rem;
+}
+.neon-text {
+  font-family:neon;
+  font-size: 14rem;
+  color: #ffd8d8;
+  padding: 0 3.5rem 0 3.5rem;
+  text-shadow: 
+  .1vw 0vw .25vw #ffd8d8, .2vw 0vw .25vw #ffd8d8, .4vw 0vw .25vw #ffd8d8, 
+  .1vw 0vw   0vw #f25757, .2vw 0vw   0vw #f25757, .4vw 0vw   0vw #f25757,
+  .1vw 0vw  .1vw #f25757, .2vw 0vw  .1vw #f25757, .4vw 0vw  .1vw #f25757,
+  .1vw 0vw   2vw #f25757, .2vw 0vw   2vw #f25757, .4vw 0vw   2vw #f25757, 
+  .1vw 0vw   1vw #e50b0b, .2vw 0vw   1vw #e50b0b, .4vw 0vw   5vw #e50b0b, 
+  .1vw 0vw   5vw #e50b0b, .2vw 0vw  20vw #e50b0b, .4vw 0vw  10vw #e50b0b,
+  .1vw 0vw  10vw #e50b0b, .2vw 0vw  30vw #e50b0b, .4vw 0vw  10vw #e50b0b;
+}*/
+.bluelight {
+  text-shadow: 0 0 10px #FF0004,
+               0 0 20px #FFC400,
+               0 0 30px #2C2D2A,
+               0 0 40px #FFFFFF; 
+              /* 0 0 70px #FFFFFF,                               
+               0 0 80px #FFFFFF,
+               0 0 100px #FFFFFF,
+               0 0 150px #FFFFFF;*/
+	color: #323232;
+	
+}
+
+.clock {
+    overflow: hidden;
+}
+
+.col-md-12 {
+    overflow:auto;
+    padding-bottom: 20px;
+	border-radius: 30px 30px 30px 30px;
+	background-color: #ffffff;
+    border: 20px;
+}
+
+.top-pane {
+  margin-bottom: 5px;
+  border-radius: 5px 5px 0px 0px;
+  background-color: #ffffff;
+  border: 20px;
+}
+
+.bottom-pane {
+  margin-top: 5px;
+  border-radius: 0px 0px 5px 5px;
+  background-color: #ffffff;
+  border: 10px;           
+}
+
+@media (min-width: 768px) {
+  .num {
+    font-size: 100px;
+  }
+}
+
+@media (max-width: 767px) {
+  .num {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .num {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .text {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 767px) {
+  .text {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .text {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 700px) {
+  body {
+  }
+}
+
+.titleh1{
+  padding-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .titleh1{
+    margin-bottom: 75px;
+    font-size: 100px;
+	color: #1F1F1F;
+  }
+}
+.neon-wrapper {
+  border-top:50px;
+  border-bottom:10px;	
+  box-shadow:
+  0 0 0.1vw  0.4vw #FFFFFF,   
+  0 0 0.4vw  0.6vw #413D3D, 
+  0 0 0.4vw  0.4vw #413D3D,
+  inset 0 0 1.5vw  0.4vw #413D3D,
+  inset 0 0 0.4vw  0.2vw #413D3D,
+  inset 0 0 0.5vw  0.2vw #FFFFFF;
+  background:url("img/bg1.jpg");
+  border-radius: 1.5rem;
+	}
+ .neon-wrapper1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+	 
+  border-top:50px;
+  border-bottom:10px;
+  box-shadow:
+  0 0 0.1vw  0.4vw #FFFFFF,   
+  0 0 0.4vw  0.6vw #413D3D, 
+  0 0 0.4vw  0.4vw #413D3D,
+  inset 0 0 1.5vw  0.4vw #413D3D,
+  inset 0 0 0.4vw  0.2vw #413D3D,
+  inset 0 0 0.5vw  0.2vw #FFFFFF;
+  background:url("img/wall.jpg");
+  border-radius: 1.5rem;
+  box-decoration-break: slice;
+}	
+</style>
+	
+<div class="wrapper">	
+  <div class="wrapper22">
   <div class="container text-center">
-    <div class="col-md-12">
-      <h1 id="header" class="">New Year Countdown</h1>
+	 <!-- <div class="neon-text">NEON <br> TEXT</div>-->
+    <div class="col-md-12 neon-wrapper1">
+      <h1 id="header" class="bluelight titleh1" style=flex-shrink: contenteditable="true">New Year Countdown</h1>
     </div>
-    <div class="col-md-3 col-xs-6">
+	  
+    <div class="col-md-3 col-xs-6 ">
       <div class="clock">
-        <div class="well top-pane">
+        <div class="well top-pane neon-wrapper">
           <div id="days" class="num">00</div>
         </div>
-        <div class="well bottom-pane">
+		  
+		  
+        <div class="well bottom-pane neon-wrapper">
           <div id="days-text" class="text">Days</div>
         </div>
       </div>
     </div>
-    <div class="col-md-3 col-xs-6">
+    <div class="col-md-3 col-xs-6 text-center ">
       <div class="clock">
-        <div class="well top-pane">
+        <div class="well top-pane neon-wrapper">
           <div id="hours" class="num">00</div>
         </div>
-        <div class="well bottom-pane">
+        <div class="well bottom-pane neon-wrapper">
           <div id="hours-text" class="text">Hours</div>
         </div>
       </div>
     </div>
-    <div class="col-md-3 col-xs-6">
+    <div class="col-md-3 col-xs-6 text-center ">
       <div class="clock">
-        <div class="well top-pane">
+        <div class="well top-pane neon-wrapper">
           <div id="mins" class="num">00</div>
         </div>
-        <div class="well bottom-pane">
+        <div class="well bottom-pane neon-wrapper">
           <div id="mins-text" class="text">Minutes</div>
         </div>
       </div>
     </div>
-    <div class="col-md-3 col-xs-6">
+    <div class="col-md-3 col-xs-6 text-center ">
       <div class="clock">
-        <div class="well top-pane">
+        <div class="well top-pane neon-wrapper">
           <div id="secs" class="num">00</div>
         </div>
-        <div class="well bottom-pane">
+        <div class="well bottom-pane neon-wrapper">
           <div id="secs-text" class="text">Seconds</div>
         </div>
       </div>
@@ -241,199 +409,9 @@
     <div id="info" class="small"></div>
   </div>
 </div>
-  
-    </section> -->
-
-    <!-- Portfolio Grid -->
-    <section class="bg-light" id="portfolio1">
-      <div class="container" >
-        <div style="" class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase" id="pastevents">Past events</h2>
-            
-          </div>
-        </div>
-        <div style="margin-top:20px;" class="row" id = "append">
-          <div   class="col-md-4 col-sm-6 portfolio-item">
-            <!--<a class="portfolio-link" data-toggle="modal" href="#portfolioModal7">-->
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                 <!--<i class="fa fa-plus fa-3x"></i>-->
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/robotics-poster new_00000.png" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>Make-A-Thon V2.0</h4>
-              <p class="text-muted">Event</p>
-              <!--
-              <form method="get" action="https://docs.google.com/forms/d/e/1FAIpQLSd3HqXTwBW1sJ8QV68X7VeOo6N70ZJ5eAwkRQnAe-1XtQbt8g/viewform?vc=0&c=0&w=1">
-                  <button class = "btn" type="submit">Register</button>
-              </form>
-              <form method="get" action="INTERNSHIP.html">
-                  <button class = "btn" type="submit">Internships</button>
-              </form>
-              </form>-->
-              <form method="get" action="team.html">
-                  <button class = "btn" type="submit">Top Innovators</button>
-              </form>
-              <!--
-          <form method="get" action="timer.html">
-                  <button class = "btn" type="submit">Timer</button>
-              </form>
-            -->
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/robofornovice.jpeg" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>Robo For Novice </h4>
-              <p class="text-muted">Workshop</p>
-              <!--form method="get" action="robonovicehtmlfile.html">
-                  <button class = "btn" type="submit">Certificates</button>
-              </form-->
-            </div>
-          </div>
-
-         <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/raspberry pi workshop.JPG" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>Raspberry Pi </h4>
-              <p class="text-muted">Workshop</p>
-            </div>
-          </div>
-        
-        </div>
-        <div  class="row" id = "append1">
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <!--onclick = "modal('portfolioModal1');"-->
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal7">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/mkt1.jpg" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>Make-A-Thon V1.0</h4>
-              <p class="text-muted">Makeathon</p>
-            </div>
-          </div>
-        
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal8">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fa fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/machinevision.jpg" alt="">
-          </a>
-      
-          <div class="portfolio-caption">
-            <h4>MACHINE VISION</h4>
-            <p class="text-muted">Seminar</p>
-          </div>
-        </div>
-      <!-- <div class="row" id = "append"> -->
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <!--onclick = "modal('portfolioModal1');"-->
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fa fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/epr2-new.jpeg" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Bipedal Robot</h4>
-            <p class="text-muted">Workshop</p>
-          </div>
-        </div>
-      </div>
-      <div  class="row" id = "append1">
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fa fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/epr1.jpeg" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Wheeled Robot</h4>
-            <p class="text-muted">Workshop</p>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fa fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/absolutecommand.jpg" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Absolute command</h4>
-            <p class="text-muted">Make-a-thon</p>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fa fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/edison.jpg" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Intel Edison</h4>
-            <p class="text-muted">Workshop</p>
-          </div>
-          </div>
-        </div>
-        <div class="row" id = "append">
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal9">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/robotics club-14.jpg" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>Other Activities</h4>
-              <p class="text-muted"></p>
-            </div>
-          </div>
-        </div>
-        </div>
-      </div>
-      <script src="vendor/jquery/jquery.min.js"></script>
-      <script src = "js/modify.js"></script>
-      <!-- <a onclick = "append();">View More</a> -->
-    </section>
-
+</div>
+    </section> 
+   
     <style>
       /*.timeline-image{
         width:150px !important;
@@ -477,11 +455,11 @@
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
-                    <h4>2018</h4>
+                    <h4>2020</h4>
                     <h4 class="subheading">Present</h4>
                   </div>
                   <div class="timeline-body">
-                    <p class="text-muted">This year too, we have 61 young minds under the wing of the knowledgeable guidance of our club faculty head, Prof. Arockia Selvakumar.</p>
+                    <p class="text-muted">This year too, we have 60 young minds under the wing of the knowledgeable guidance of our club faculty head, Prof. Arockia Selvakumar.</p>
                   </div>
                 </div>
               </li>
@@ -526,6 +504,8 @@
       </div>
     </section>
 
+
+
     <style>
        .reduce-gap{
         margin-top:-15px !important;
@@ -553,6 +533,66 @@
             </div>
           </div>
          </div>
+		  
+     <div class="row">
+          <div class="col-lg-12 text-center">
+            <div class="page-header">
+             
+            </div>
+          </div>
+      </div>
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <img class = "img-fluid" src = "img/team/clubgroupphoto2018-20120.jpg"></img>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <div class="President"> 
+                <h1 style="margin-top:40px">2019-2020 batch</small></h1>        
+              <h4 style="margin-top:40px;">President</h4>
+              <p class="font-weight-normal">Harish</p>
+              <h4>Vice President</h4>
+              <p class="font-weight-normal">Kirti Bhagat</p>
+             
+            </div>
+          </div>
+         </div>
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <div class="team-member"> 
+              <h4 style="margin-top:-5px">Technical heads</h4>
+              <p class="font-weight-normal">Siva Shankar</p>
+              <p class="font-weight-normal">Atishi Miral</p>
+              <p class="font-weight-normal">Malolan V</p>
+              <p class="font-weight-normal">Manibharathi</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <div class="team-member"> 
+              <h4 style="margin-top:-20px">Treasurer</h4>
+              <p class="font-weight-normal">Narmatha</p>
+            </div>
+          </div>
+        </div>
+       <div class="row">
+          <div class="col-lg-12 text-center">
+            <div class="team-member"> 
+              <h4 style="margin-top:-20px">Event Management Head</h4>
+              <p class="font-weight-normal">Rahul Hari</p>
+            </div>
+          </div>
+        </div>
+      <div class="row">
+          <div class="col-lg-12 text-center">
+            <div class="team-member"> 
+              <h4 style="margin-top:-20px">Web Development Head</h4>
+              <p class="font-weight-normal"> Ehtesham</p>
+            </div>
+          </div>
+        </div>
         <div class="row">
           <div class="col-lg-12 text-center">
             <div class="page-header">
@@ -811,6 +851,197 @@
           </div>
       </div>-->
     </section>
+
+<!-- Portfolio Grid -->
+<section class="bg-light" id="portfolio1">
+  <div class="container" >
+        <div style="" class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase" id="pastevents">Past events</h2>
+            
+          </div>
+        </div>
+        <div style="margin-top:20px;" class="row" id = "append">
+          <div   class="col-md-4 col-sm-6 portfolio-item">
+            <!--<a class="portfolio-link" data-toggle="modal" href="#portfolioModal7">-->
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                 <!--<i class="fa fa-plus fa-3x"></i>-->
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/robotics-poster new_00000.png" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Make-A-Thon V2.0</h4>
+              <p class="text-muted">Event</p>
+              <!--
+              <form method="get" action="https://docs.google.com/forms/d/e/1FAIpQLSd3HqXTwBW1sJ8QV68X7VeOo6N70ZJ5eAwkRQnAe-1XtQbt8g/viewform?vc=0&c=0&w=1">
+                  <button class = "btn" type="submit">Register</button>
+              </form>
+              <form method="get" action="INTERNSHIP.html">
+                  <button class = "btn" type="submit">Internships</button>
+              </form>
+              </form>-->
+              <form method="get" action="team.html">
+                  <button class = "btn" type="submit">Top Innovators</button>
+              </form>
+              <!--
+          <form method="get" action="timer.html">
+                  <button class = "btn" type="submit">Timer</button>
+              </form>
+            -->
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/robofornovice.jpeg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Robo For Novice </h4>
+              <p class="text-muted">Workshop</p>
+              <!--form method="get" action="robonovicehtmlfile.html">
+                  <button class = "btn" type="submit">Certificates</button>
+              </form-->
+            </div>
+          </div>
+
+         <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/raspberry pi workshop.JPG" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Raspberry Pi </h4>
+              <p class="text-muted">Workshop</p>
+            </div>
+          </div>
+        
+        </div>
+        <div  class="row" id = "append1">
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <!--onclick = "modal('portfolioModal1');"-->
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal7">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/mkt1.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Make-A-Thon V1.0</h4>
+              <p class="text-muted">Makeathon</p>
+            </div>
+          </div>
+        
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal8">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fa fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/machinevision.jpg" alt="">
+          </a>
+      
+          <div class="portfolio-caption">
+            <h4>MACHINE VISION</h4>
+            <p class="text-muted">Seminar</p>
+          </div>
+        </div>
+      <!-- <div class="row" id = "append"> -->
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <!--onclick = "modal('portfolioModal1');"-->
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fa fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/epr2-new.jpeg" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Bipedal Robot</h4>
+            <p class="text-muted">Workshop</p>
+          </div>
+        </div>
+      </div>
+      <div  class="row" id = "append1">
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fa fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/epr1.jpeg" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Wheeled Robot</h4>
+            <p class="text-muted">Workshop</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fa fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/absolutecommand.jpg" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Absolute command</h4>
+            <p class="text-muted">Make-a-thon</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fa fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/edison.jpg" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Intel Edison</h4>
+            <p class="text-muted">Workshop</p>
+          </div>
+          </div>
+        </div>
+        <div class="row" id = "append">
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal9">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/robotics club-14.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Other Activities</h4>
+              <p class="text-muted"></p>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+      <script src="vendor/jquery/jquery.min.js"></script>
+      <script src = "js/modify.js"></script>
+      <!-- <a onclick = "append();">View More</a> -->
+    </section>
+
     <style>
 
       .contact-us{
